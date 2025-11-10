@@ -58,7 +58,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://crane_x7_description/meshes/collision/mounting_plate.stl" scale="1 1 1"/>
+        <mesh filename="package://crane_x7_description/meshes/visual/mounting_plate.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -80,7 +80,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://crane_x7_description/meshes/collision/base_fixed_part.stl" scale="1 1 1"/>
+        <mesh filename="package://crane_x7_description/meshes/visual/base_fixed_part.stl" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -108,20 +108,9 @@
       <material name="crane_blue"/>
     </visual>
     <collision>
-      <!--<origin xyz="0 0 0" rpy="0 0 ${M_PI}"/>-->
-      <!--<geometry>-->
-      <!--<mesh filename="package://crane_x7_description/meshes/collision/base_revolute_part.stl"-->
-      <!--scale="1 1 1"/>-->
-      <!--</geometry>-->
-      <origin rpy="0 0 0" xyz="0 0 0.0296"/>
+      <origin rpy="0 0 3.14159" xyz="0 0 0"/>
       <geometry>
-        <cylinder length="0.0295" radius="0.0334"/>
-      </geometry>
-    </collision>
-    <collision>
-      <origin rpy="1.570795 0 0" xyz="0 0 0.064"/>
-      <geometry>
-        <cylinder length="0.0491" radius="0.034"/>
+        <mesh filename="package://crane_x7_description/meshes/visual/base_revolute_part.stl" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -151,7 +140,7 @@
     <collision>
       <origin rpy="1.570795 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_1_fixed_part.stl" scale="1 1 1"/>
+        <mesh filename="package://crane_x7_description/meshes/visual/rotating_link_type_1_fixed_part.stl" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -225,7 +214,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_1_revolute_part.stl" scale="1 1 1"/>
+        <mesh filename="package://crane_x7_description/meshes/visual/rotating_link_type_1_revolute_part.stl" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -255,7 +244,7 @@
     <collision>
       <origin rpy="1.570795 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_2_fixed_part.stl" scale="1 1 1"/>
+        <mesh filename="package://crane_x7_description/meshes/visual/rotating_link_type_2_fixed_part.stl" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -329,7 +318,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://crane_x7_description/meshes/collision/rotating_link_type_2_revolute_part.stl" scale="1 1 1"/>
+        <mesh filename="package://crane_x7_description/meshes/visual/rotating_link_type_2_revolute_part.stl" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -443,7 +432,7 @@
     <collision>
       <origin rpy="1.570795 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://crane_x7_description/meshes/collision/wrist.stl" scale="1 1 1"/>
+        <mesh filename="package://crane_x7_description/meshes/visual/wrist.stl" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -489,9 +478,9 @@
       <material name="camera_gray"/>
     </visual>
     <collision>
-      <origin rpy="3.141592653589793 0 1.5707963267948966" xyz="0 -0.0175 0"/>
+      <origin rpy="3.141592653589793 0 1.5707963267948966" xyz="0.0043 -0.0175 0"/>
       <geometry>
-        <box size="0.02505 0.09 0.025"/>
+        <mesh filename="package://crane_x7_description/meshes/visual/d435.obj"/>
       </geometry>
     </collision>
     <inertial>
@@ -512,7 +501,7 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://crane_x7_description/meshes/collision/wide_two_finger_gripper_actuator.stl" scale="1 1 1"/>
+        <mesh filename="package://crane_x7_description/meshes/visual/wide_two_finger_gripper_actuator.stl" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -540,7 +529,7 @@
     <collision>
       <origin rpy="1.570795 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://crane_x7_description/meshes/collision/wide_two_finger_gripper_finger_a.stl" scale="1 1 1"/>
+        <mesh filename="package://crane_x7_description/meshes/visual/wide_two_finger_gripper_finger_a.stl" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
@@ -577,7 +566,7 @@
     <collision>
       <origin rpy="1.570795 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://crane_x7_description/meshes/collision/wide_two_finger_gripper_finger_b.stl" scale="1 1 1"/>
+        <mesh filename="package://crane_x7_description/meshes/visual/wide_two_finger_gripper_finger_b.stl" scale="1 1 1"/>
       </geometry>
     </collision>
     <inertial>
