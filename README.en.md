@@ -50,6 +50,10 @@ ros2 launch crane_x7_description display.launch.py use_d435:=true
 
 ![display_launch_use_d435](https://rt-net.github.io/images/crane-x7/display_launch_use_d435.png)
 
+## What's added in this fork
+
+- Added `urdf/crane_x7.urdf`, a static URDF expanded from `urdf/crane_x7.urdf.xacro`, for tools/environments without xacro.
+
 ## Proprietary Rights
 
 CRANE-X7 is an arm robot developed by RT Corporation for research purposes.

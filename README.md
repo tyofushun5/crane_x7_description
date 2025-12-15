@@ -50,6 +50,10 @@ ros2 launch crane_x7_description display.launch.py use_d435:=true
 
 ![display_launch_use_d435](https://rt-net.github.io/images/crane-x7/display_launch_use_d435.png)
 
+## このフォークでの追加
+
+- `urdf/crane_x7.urdf` を同梱しました。`urdf/crane_x7.urdf.xacro` を展開した静的URDFなので、xacroが使えないツールでも読み込めます。
+
 
 ## 知的財産権について
 
